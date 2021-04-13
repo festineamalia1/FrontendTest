@@ -1,33 +1,29 @@
 import React from "react";
 import { makeStyles, withStyles } from "@material-ui/core/styles";
-import AppBar from "@material-ui/core/AppBar";
-import Toolbar from "@material-ui/core/Toolbar";
-import Typography from "@material-ui/core/Typography";
-import Button from "@material-ui/core/Button";
-import IconButton from "@material-ui/core/IconButton";
+import { 
+  AppBar, 
+  Toolbar,
+  Tab,
+  Tabs,
+  Typography,
+  Button,
+  IconButton,
+  List,
+  ListItem,
+  Card,
+  CardContent,
+  CardActions,
+  Collapse,
+  Container,
+  LinearProgress,
+  Grid,
+  CardMedia,
+ } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
-import List from "@material-ui/core/List";
-import ListItem from "@material-ui/core/ListItem";
 import SearchIcon from "@material-ui/icons/Search";
-import Card from "@material-ui/core/Card";
-import CardContent from "@material-ui/core/CardContent";
-import CardActions from "@material-ui/core/CardActions";
-import Collapse from "@material-ui/core/Collapse";
 import clsx from "clsx";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import Container from "@material-ui/core/Container";
 import ShowChartIcon from "@material-ui/icons/ShowChart";
-import RadioButtonUncheckedIcon from "@material-ui/icons/RadioButtonUnchecked";
-import LinearProgress from "@material-ui/core/LinearProgress";
-import Grid from "@material-ui/core/Grid";
-import CardMedia from "@material-ui/core/CardMedia";
-import Fab from "@material-ui/core/Fab";
-import AddIcon from "@material-ui/icons/Add";
-import MoreIcon from "@material-ui/icons/MoreVert";
-import Tabs from "@material-ui/core/Tabs";
-import Tab from "@material-ui/core/Tab";
-import PhoneIcon from "@material-ui/icons/Phone";
-import FavoriteIcon from "@material-ui/icons/Favorite";
 import PersonPinIcon from "@material-ui/icons/PersonPin";
 import SportsSoccerIcon from "@material-ui/icons/SportsSoccer";
 import EventIcon from "@material-ui/icons/Event";
